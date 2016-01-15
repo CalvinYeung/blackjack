@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calvin's Simpson BlackJack</title>
+	<link rel="stylesheet" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body>
+	<article>
+		<header>
+			<p id="title"> Calvin's BlackJack</p>
+		</header>
+		<div class="row">
+			<div>
+				<label id="balance-text">Donut Balance
+					<input id="balance"></input>
+				</label>
+				<div class="hands">
+					<div id="player">
+						<div>Player Hand</div>
+						<div id="player-hand"></div>
+						<div id="player-hand-value"></div>
+					</div>
+					<div id="dealer">
+						<div>Dealer Hand</div>
+						<div id="dealer-hand"></div>
+						<div id="dealer-hand-value"></div>
+					</div>
+				</div>
+				<button id="hit" class="button-primary gameActive">HIT ME HOMER</button>
+				
+				<button id="stand" class="button-primary gameActive">STAND</button>
+				
+				<input id="bet-amount" placeholder="$$ Bet Donuts Here $$"></input>
+			</div>
+			<div>
+				<button id="bet" class="button-primary gameInactive">BET</button>
+			</div>
+		</div>
+	</article>
+	<script src="./script.js"></script>
+	<footer>
+		<p id="copyright"><strong>&copy;2015 Calvin Yeung</p>
+	</footer>
+</body>
+</html>
